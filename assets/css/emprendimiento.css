@@ -1,0 +1,143 @@
+.movimiento-x {
+  animation: traslacion 5s infinite linear;
+}
+
+.rotate {
+  animation: 5s rotate linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes traslacion {
+  0% {
+    transform: translatex(0);
+  }
+  30% {
+    transform: translatex(30%);
+  }
+  0% {
+    transform: translatex(0%);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.descripcion1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.nombre1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: white;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.container-fluid-1 {
+  display: grid;
+  grid-template-columns: repeat(12 1fr);
+  grid-gap: 10px;
+}
+
+.container-fluid h5 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logos {
+  display: flex;
+}
+
+.container-fluid-2 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 992px) {
+  .container-fluid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+ul {
+  text-align: left;
+}
+
+footer {
+  background: black;
+}
+
+p {
+  margin: 0px;
+}
+
+.logos1 {
+  justify-content: center;
+  display: flex;
+}
+
+.descripcion2 {
+  font-weight: bold;
+  text-align: justify;
+}
+
+ul {
+  margin-top: 30px;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.imagen-arriba {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .imagen-arriba {
+    width: 50%;
+  }
+}
+
+.imagen {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=emprendimiento.css.map */
